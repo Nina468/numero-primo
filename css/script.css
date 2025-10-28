@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(135deg, #a72ccc, #f34c7e);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #2d3436;
+}
+
+.principal {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+/* Título */
+.principal h1 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Campo de entrada */
+.temp, select {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #d400ff;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Efeito ao focar */
+.temp:focus, select:focus {
+    border-color: #b507fa;
+}
+
+/* Botão */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #e30988;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #6c5ce7;
+   
+}
+
+h3 {
+    margin-top: 20px;
+    color: #2d3436;
+}
+p { background-color: #f1f2f6;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 6px;
+    font-weight: 500;
+}
